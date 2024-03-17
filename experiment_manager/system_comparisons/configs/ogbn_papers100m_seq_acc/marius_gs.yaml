@@ -9,12 +9,12 @@ model:
           use_hashmap_sets: true
           type: UNIFORM
           options:
-            max_neighbors: 15
+            max_neighbors: 10
         eval_neighbor_sampling:
           use_hashmap_sets: true
           type: UNIFORM
           options:
-            max_neighbors: 15
+            max_neighbors: 10
         init:
           type: GLOROT_NORMAL
         type: GRAPH_SAGE
@@ -48,11 +48,11 @@ model:
       - train_neighbor_sampling:
           type: UNIFORM
           options:
-            max_neighbors: 5
+            max_neighbors: 10
         eval_neighbor_sampling:
           type: UNIFORM
           options:
-            max_neighbors: 5
+            max_neighbors: 10
         init:
           type: GLOROT_NORMAL
         type: GRAPH_SAGE
@@ -67,7 +67,7 @@ model:
     optimizer:
       type: ADAM
       options:
-        learning_rate: 0.003
+        learning_rate: 0.001
 storage:
   device_type: cuda
   dataset:
@@ -97,8 +97,8 @@ storage:
   shuffle_input: true
   full_graph_evaluation: true
 training:
-  batch_size: 1000
-  num_epochs: 10
+  batch_size: 1024
+  num_epochs: 50
   pipeline:
     sync: false
     staleness_bound: 8
@@ -109,7 +109,7 @@ training:
   epochs_per_shuffle: 1
   logs_per_epoch: 10
 evaluation:
-  batch_size: 1000
+  batch_size: 1024
   pipeline:
     sync: true
   epochs_per_eval: 1

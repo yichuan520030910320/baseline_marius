@@ -56,7 +56,7 @@ class Model : public torch::nn::Module {
 
     virtual void evaluate(std::vector<Batch *> sub_batches, bool filtered_eval) {};
 
-    void zero_grad() override;
+    void zero_grad();
 
     void step();
 
