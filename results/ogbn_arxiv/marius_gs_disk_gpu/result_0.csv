@@ -1,0 +1,2 @@
+init_time,epoch_time,valid_acc,valid_mr,valid_mrr,valid_hits1,valid_hits3,valid_hits5,valid_hits10,valid_hits50,valid_hits100,test_acc,test_mr,test_mrr,test_hits1,test_hits3,test_hits5,test_hits10,test_hits50,test_hits100
+-1,[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]

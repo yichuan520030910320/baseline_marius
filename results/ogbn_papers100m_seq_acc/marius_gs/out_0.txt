@@ -770,3 +770,683 @@ Accuracy: 64.014780%
 [2024-03-17 12:07:05.637] [info] [pipeline.cpp:620] Pipeline flush complete
 [2024-03-17 12:07:05.637] [info] [trainer.cpp:45] ################ Finished training epoch 27 ################
 [2024-03-17 12:07:05.637] [info] [trainer.cpp:62] Epoch Runtime: 171497ms
+[2024-03-17 12:07:05.637] [info] [trainer.cpp:63] Nodes per Second: 7039.068
+[2024-03-17 12:07:08.754] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 12:12:59.239] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 67.534427%
+=================================
+[2024-03-17 12:13:04.613] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 12:18:58.172] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.834691%
+=================================
+[2024-03-17 12:19:03.341] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 12:19:03.342] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 12:20:30.491] [info] [trainer.cpp:41] ################ Starting training epoch 28 ################
+[2024-03-17 12:20:48.783] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 12:21:05.813] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 12:21:24.365] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 12:21:42.704] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 12:22:00.353] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 12:22:18.613] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 12:22:37.162] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 12:22:55.581] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 12:23:12.501] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 12:23:28.120] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 12:23:28.121] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 12:23:28.121] [info] [trainer.cpp:45] ################ Finished training epoch 28 ################
+[2024-03-17 12:23:28.121] [info] [trainer.cpp:62] Epoch Runtime: 177629ms
+[2024-03-17 12:23:28.121] [info] [trainer.cpp:63] Nodes per Second: 6796.0693
+[2024-03-17 12:23:31.601] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 12:29:15.897] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 67.318884%
+=================================
+[2024-03-17 12:29:21.201] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 12:35:13.447] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.607946%
+=================================
+[2024-03-17 12:35:18.634] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 12:35:18.635] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 12:36:45.583] [info] [trainer.cpp:41] ################ Starting training epoch 29 ################
+[2024-03-17 12:37:04.502] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 12:37:22.147] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 12:37:39.915] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 12:37:57.616] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 12:38:15.017] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 12:38:32.075] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 12:38:50.022] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 12:39:08.069] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 12:39:25.220] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 12:39:40.973] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 12:39:40.974] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 12:39:40.974] [info] [trainer.cpp:45] ################ Finished training epoch 29 ################
+[2024-03-17 12:39:40.974] [info] [trainer.cpp:62] Epoch Runtime: 175391ms
+[2024-03-17 12:39:40.974] [info] [trainer.cpp:63] Nodes per Second: 6882.787
+[2024-03-17 12:39:43.789] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 12:45:27.933] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.693011%
+=================================
+[2024-03-17 12:45:33.276] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 12:51:24.564] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.501106%
+=================================
+[2024-03-17 12:51:29.730] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 12:51:29.730] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 12:52:55.963] [info] [trainer.cpp:41] ################ Starting training epoch 30 ################
+[2024-03-17 12:53:14.214] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 12:53:32.106] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 12:53:49.680] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 12:54:07.445] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 12:54:25.556] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 12:54:43.709] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 12:55:00.790] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 12:55:18.032] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 12:55:35.837] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 12:55:52.880] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 12:55:52.881] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 12:55:52.881] [info] [trainer.cpp:45] ################ Finished training epoch 30 ################
+[2024-03-17 12:55:52.881] [info] [trainer.cpp:62] Epoch Runtime: 176917ms
+[2024-03-17 12:55:52.881] [info] [trainer.cpp:63] Nodes per Second: 6823.42
+[2024-03-17 12:55:55.854] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 13:01:43.496] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.433561%
+=================================
+[2024-03-17 13:01:48.895] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 13:07:43.820] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.225373%
+=================================
+[2024-03-17 13:07:49.044] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 13:07:49.044] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 13:09:15.388] [info] [trainer.cpp:41] ################ Starting training epoch 31 ################
+[2024-03-17 13:09:33.838] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 13:09:51.668] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 13:10:09.211] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 13:10:27.012] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 13:10:44.454] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 13:11:02.096] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 13:11:19.668] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 13:11:37.656] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 13:11:56.034] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 13:12:12.848] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 13:12:12.849] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 13:12:12.849] [info] [trainer.cpp:45] ################ Finished training epoch 31 ################
+[2024-03-17 13:12:12.849] [info] [trainer.cpp:62] Epoch Runtime: 177460ms
+[2024-03-17 13:12:12.849] [info] [trainer.cpp:63] Nodes per Second: 6802.541
+[2024-03-17 13:12:15.743] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 13:18:03.082] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.341755%
+=================================
+[2024-03-17 13:18:09.102] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 13:24:02.758] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.133929%
+=================================
+[2024-03-17 13:24:08.064] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 13:24:08.064] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 13:25:35.686] [info] [trainer.cpp:41] ################ Starting training epoch 32 ################
+[2024-03-17 13:25:53.503] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 13:26:12.161] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 13:26:29.547] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 13:26:46.849] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 13:27:04.320] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 13:27:21.763] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 13:27:38.867] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 13:27:57.089] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 13:28:15.038] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 13:28:32.022] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 13:28:32.022] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 13:28:32.022] [info] [trainer.cpp:45] ################ Finished training epoch 32 ################
+[2024-03-17 13:28:32.022] [info] [trainer.cpp:62] Epoch Runtime: 176335ms
+[2024-03-17 13:28:32.022] [info] [trainer.cpp:63] Nodes per Second: 6845.941
+[2024-03-17 13:28:35.287] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 13:34:25.333] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 67.129685%
+=================================
+[2024-03-17 13:34:30.732] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 13:40:28.398] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.510437%
+=================================
+[2024-03-17 13:40:33.800] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 13:40:33.801] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 13:42:00.956] [info] [trainer.cpp:41] ################ Starting training epoch 33 ################
+[2024-03-17 13:42:19.931] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 13:42:37.644] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 13:42:55.025] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 13:43:12.697] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 13:43:29.947] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 13:43:47.474] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 13:44:06.304] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 13:44:23.466] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 13:44:41.363] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 13:44:58.465] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 13:44:58.466] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 13:44:58.466] [info] [trainer.cpp:45] ################ Finished training epoch 33 ################
+[2024-03-17 13:44:58.466] [info] [trainer.cpp:62] Epoch Runtime: 177510ms
+[2024-03-17 13:44:58.466] [info] [trainer.cpp:63] Nodes per Second: 6800.6255
+[2024-03-17 13:45:01.385] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 13:50:49.199] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.189279%
+=================================
+[2024-03-17 13:50:54.344] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 13:56:46.363] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 62.951040%
+=================================
+[2024-03-17 13:56:51.470] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 13:56:51.471] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 13:58:18.543] [info] [trainer.cpp:41] ################ Starting training epoch 34 ################
+[2024-03-17 13:58:36.565] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 13:58:54.554] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 13:59:11.970] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 13:59:29.538] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 13:59:47.858] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 14:00:04.794] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 14:00:21.906] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 14:00:38.783] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 14:00:57.174] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 14:01:13.432] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 14:01:13.432] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 14:01:13.432] [info] [trainer.cpp:45] ################ Finished training epoch 34 ################
+[2024-03-17 14:01:13.432] [info] [trainer.cpp:62] Epoch Runtime: 174889ms
+[2024-03-17 14:01:13.432] [info] [trainer.cpp:63] Nodes per Second: 6902.5435
+[2024-03-17 14:01:15.972] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 14:06:59.611] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 65.680757%
+=================================
+[2024-03-17 14:07:04.951] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 14:12:56.432] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 62.534875%
+=================================
+[2024-03-17 14:13:01.586] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 14:13:01.587] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 14:14:27.707] [info] [trainer.cpp:41] ################ Starting training epoch 35 ################
+[2024-03-17 14:14:45.644] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 14:15:03.724] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 14:15:20.409] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 14:15:37.333] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 14:15:54.386] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 14:16:12.030] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 14:16:29.491] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 14:16:47.623] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 14:17:06.071] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 14:17:23.869] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 14:17:23.870] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 14:17:23.870] [info] [trainer.cpp:45] ################ Finished training epoch 35 ################
+[2024-03-17 14:17:23.870] [info] [trainer.cpp:62] Epoch Runtime: 176162ms
+[2024-03-17 14:17:23.870] [info] [trainer.cpp:63] Nodes per Second: 6852.664
+[2024-03-17 14:17:26.908] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 14:23:08.900] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 67.572746%
+=================================
+[2024-03-17 14:23:14.260] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 14:29:06.543] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.976990%
+=================================
+[2024-03-17 14:29:11.718] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 14:29:11.719] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 14:30:37.984] [info] [trainer.cpp:41] ################ Starting training epoch 36 ################
+[2024-03-17 14:30:54.538] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 14:31:12.130] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 14:31:29.141] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 14:31:46.632] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 14:32:04.430] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 14:32:22.050] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 14:32:39.787] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 14:32:58.034] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 14:33:16.155] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 14:33:32.424] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 14:33:32.424] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 14:33:32.424] [info] [trainer.cpp:45] ################ Finished training epoch 36 ################
+[2024-03-17 14:33:32.424] [info] [trainer.cpp:62] Epoch Runtime: 174440ms
+[2024-03-17 14:33:32.424] [info] [trainer.cpp:63] Nodes per Second: 6920.3105
+[2024-03-17 14:33:35.191] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 14:39:23.011] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.287471%
+=================================
+[2024-03-17 14:39:28.435] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 14:45:18.449] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.107335%
+=================================
+[2024-03-17 14:45:23.889] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 14:45:23.890] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 14:46:50.505] [info] [trainer.cpp:41] ################ Starting training epoch 37 ################
+[2024-03-17 14:47:08.828] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 14:47:26.994] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 14:47:44.394] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 14:48:02.098] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 14:48:19.618] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 14:48:37.536] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 14:48:55.544] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 14:49:13.701] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 14:49:31.019] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 14:49:48.578] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 14:49:48.578] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 14:49:48.578] [info] [trainer.cpp:45] ################ Finished training epoch 37 ################
+[2024-03-17 14:49:48.578] [info] [trainer.cpp:62] Epoch Runtime: 178073ms
+[2024-03-17 14:49:48.578] [info] [trainer.cpp:63] Nodes per Second: 6779.1245
+[2024-03-17 14:49:51.819] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 14:55:35.321] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.858260%
+=================================
+[2024-03-17 14:55:40.465] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 15:01:33.117] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.112467%
+=================================
+[2024-03-17 15:01:38.286] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 15:01:38.286] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 15:03:04.844] [info] [trainer.cpp:41] ################ Starting training epoch 38 ################
+[2024-03-17 15:03:22.962] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 15:03:40.290] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 15:03:58.354] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 15:04:16.342] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 15:04:34.080] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 15:04:51.984] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 15:05:10.586] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 15:05:28.127] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 15:05:45.910] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 15:06:02.464] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 15:06:02.464] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 15:06:02.464] [info] [trainer.cpp:45] ################ Finished training epoch 38 ################
+[2024-03-17 15:06:02.464] [info] [trainer.cpp:62] Epoch Runtime: 177620ms
+[2024-03-17 15:06:02.464] [info] [trainer.cpp:63] Nodes per Second: 6796.414
+[2024-03-17 15:06:05.323] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 15:11:50.267] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 67.505688%
+=================================
+[2024-03-17 15:11:55.675] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 15:17:48.685] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.854753%
+=================================
+[2024-03-17 15:17:54.143] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 15:17:54.144] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 15:19:20.892] [info] [trainer.cpp:41] ################ Starting training epoch 39 ################
+[2024-03-17 15:19:38.846] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 15:19:56.066] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 15:20:13.899] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 15:20:31.293] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 15:20:49.222] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 15:21:05.505] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 15:21:23.089] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 15:21:40.319] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 15:21:58.229] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 15:22:15.732] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 15:22:15.732] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 15:22:15.732] [info] [trainer.cpp:45] ################ Finished training epoch 39 ################
+[2024-03-17 15:22:15.732] [info] [trainer.cpp:62] Epoch Runtime: 174840ms
+[2024-03-17 15:22:15.732] [info] [trainer.cpp:63] Nodes per Second: 6904.4785
+[2024-03-17 15:22:18.561] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 15:28:05.177] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.000080%
+=================================
+[2024-03-17 15:28:10.727] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 15:34:04.015] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 62.933311%
+=================================
+[2024-03-17 15:34:09.450] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 15:34:09.450] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 15:35:35.536] [info] [trainer.cpp:41] ################ Starting training epoch 40 ################
+[2024-03-17 15:35:53.713] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 15:36:10.947] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 15:36:29.624] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 15:36:47.781] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 15:37:05.699] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 15:37:22.738] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 15:37:41.195] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 15:37:58.477] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 15:38:16.576] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 15:38:33.725] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 15:38:33.726] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 15:38:33.726] [info] [trainer.cpp:45] ################ Finished training epoch 40 ################
+[2024-03-17 15:38:33.726] [info] [trainer.cpp:62] Epoch Runtime: 178190ms
+[2024-03-17 15:38:33.726] [info] [trainer.cpp:63] Nodes per Second: 6774.673
+[2024-03-17 15:38:36.492] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 15:44:19.814] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 67.074602%
+=================================
+[2024-03-17 15:44:25.269] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 15:50:18.303] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.468914%
+=================================
+[2024-03-17 15:50:23.575] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 15:50:23.575] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 15:51:50.246] [info] [trainer.cpp:41] ################ Starting training epoch 41 ################
+[2024-03-17 15:52:08.814] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 15:52:26.598] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 15:52:44.721] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 15:53:01.933] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 15:53:20.545] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 15:53:38.647] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 15:53:56.997] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 15:54:14.227] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 15:54:32.240] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 15:54:49.531] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 15:54:49.531] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 15:54:49.531] [info] [trainer.cpp:45] ################ Finished training epoch 41 ################
+[2024-03-17 15:54:49.531] [info] [trainer.cpp:62] Epoch Runtime: 179285ms
+[2024-03-17 15:54:49.531] [info] [trainer.cpp:63] Nodes per Second: 6733.296
+[2024-03-17 15:54:52.377] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 16:00:38.686] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.445535%
+=================================
+[2024-03-17 16:00:44.315] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 16:06:37.762] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 62.884789%
+=================================
+[2024-03-17 16:06:43.215] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 16:06:43.215] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 16:08:10.151] [info] [trainer.cpp:41] ################ Starting training epoch 42 ################
+[2024-03-17 16:08:28.669] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 16:08:46.610] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 16:09:04.538] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 16:09:22.750] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 16:09:40.223] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 16:09:57.991] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 16:10:16.409] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 16:10:34.316] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 16:10:52.019] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 16:11:09.513] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 16:11:09.513] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 16:11:09.513] [info] [trainer.cpp:45] ################ Finished training epoch 42 ################
+[2024-03-17 16:11:09.513] [info] [trainer.cpp:62] Epoch Runtime: 179361ms
+[2024-03-17 16:11:09.513] [info] [trainer.cpp:63] Nodes per Second: 6730.4434
+[2024-03-17 16:11:12.342] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 16:16:57.451] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 65.917056%
+=================================
+[2024-03-17 16:17:02.869] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 16:22:55.672] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 62.419170%
+=================================
+[2024-03-17 16:23:00.935] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 16:23:00.935] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 16:24:27.418] [info] [trainer.cpp:41] ################ Starting training epoch 43 ################
+[2024-03-17 16:24:45.631] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 16:25:04.077] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 16:25:22.343] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 16:25:40.139] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 16:25:58.451] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 16:26:15.851] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 16:26:33.887] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 16:26:51.984] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 16:27:09.876] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 16:27:25.790] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 16:27:25.791] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 16:27:25.792] [info] [trainer.cpp:45] ################ Finished training epoch 43 ################
+[2024-03-17 16:27:25.792] [info] [trainer.cpp:62] Epoch Runtime: 178373ms
+[2024-03-17 16:27:25.792] [info] [trainer.cpp:63] Nodes per Second: 6767.7227
+[2024-03-17 16:27:28.902] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 16:33:13.034] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.492636%
+=================================
+[2024-03-17 16:33:18.412] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 16:39:13.966] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.313551%
+=================================
+[2024-03-17 16:39:19.203] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 16:39:19.204] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 16:40:44.918] [info] [trainer.cpp:41] ################ Starting training epoch 44 ################
+[2024-03-17 16:41:02.034] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 16:41:19.214] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 16:41:36.240] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 16:41:54.131] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 16:42:11.776] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 16:42:29.958] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 16:42:47.594] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 16:43:04.352] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 16:43:22.007] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 16:43:39.064] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 16:43:39.065] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 16:43:39.065] [info] [trainer.cpp:45] ################ Finished training epoch 44 ################
+[2024-03-17 16:43:39.065] [info] [trainer.cpp:62] Epoch Runtime: 174146ms
+[2024-03-17 16:43:39.065] [info] [trainer.cpp:63] Nodes per Second: 6931.994
+[2024-03-17 16:43:41.989] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 16:49:27.456] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 65.911468%
+=================================
+[2024-03-17 16:49:32.947] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 16:55:27.726] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 62.987431%
+=================================
+[2024-03-17 16:55:32.980] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 16:55:32.981] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 16:57:00.130] [info] [trainer.cpp:41] ################ Starting training epoch 45 ################
+[2024-03-17 16:57:18.180] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 16:57:36.228] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 16:57:54.959] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 16:58:13.012] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 16:58:31.214] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 16:58:49.009] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 16:59:06.292] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 16:59:22.961] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 16:59:39.265] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 16:59:54.527] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 16:59:54.528] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 16:59:54.528] [info] [trainer.cpp:45] ################ Finished training epoch 45 ################
+[2024-03-17 16:59:54.528] [info] [trainer.cpp:62] Epoch Runtime: 174397ms
+[2024-03-17 16:59:54.528] [info] [trainer.cpp:63] Nodes per Second: 6922.017
+[2024-03-17 16:59:57.768] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 17:05:43.461] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.557299%
+=================================
+[2024-03-17 17:05:48.925] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 17:11:37.000] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.224440%
+=================================
+[2024-03-17 17:11:42.106] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 17:11:42.107] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 17:13:09.784] [info] [trainer.cpp:41] ################ Starting training epoch 46 ################
+[2024-03-17 17:13:26.831] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 17:13:44.516] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 17:14:01.437] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 17:14:18.748] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 17:14:35.390] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 17:14:51.994] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 17:15:08.592] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 17:15:25.771] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 17:15:42.928] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 17:16:00.260] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 17:16:00.261] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 17:16:00.261] [info] [trainer.cpp:45] ################ Finished training epoch 46 ################
+[2024-03-17 17:16:00.261] [info] [trainer.cpp:62] Epoch Runtime: 170476ms
+[2024-03-17 17:16:00.261] [info] [trainer.cpp:63] Nodes per Second: 7081.2256
+[2024-03-17 17:16:03.241] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 17:21:48.842] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.099070%
+=================================
+[2024-03-17 17:21:54.048] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 17:27:42.733] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.044351%
+=================================
+[2024-03-17 17:27:47.790] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 17:27:47.791] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 17:29:14.471] [info] [trainer.cpp:41] ################ Starting training epoch 47 ################
+[2024-03-17 17:29:33.706] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 17:29:50.846] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 17:30:07.917] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 17:30:25.182] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 17:30:42.609] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 17:30:59.949] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 17:31:17.260] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 17:31:34.712] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 17:31:52.136] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 17:32:09.559] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 17:32:09.560] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 17:32:09.560] [info] [trainer.cpp:45] ################ Finished training epoch 47 ################
+[2024-03-17 17:32:09.560] [info] [trainer.cpp:62] Epoch Runtime: 175088ms
+[2024-03-17 17:32:09.560] [info] [trainer.cpp:63] Nodes per Second: 6894.6987
+[2024-03-17 17:32:12.297] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 17:37:58.217] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.545324%
+=================================
+[2024-03-17 17:38:03.499] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 17:43:55.008] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.166121%
+=================================
+[2024-03-17 17:44:00.254] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 17:44:00.255] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 17:45:27.450] [info] [trainer.cpp:41] ################ Starting training epoch 48 ################
+[2024-03-17 17:45:45.776] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 17:46:03.287] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 17:46:20.833] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 17:46:38.910] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 17:46:56.423] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 17:47:14.700] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 17:47:32.934] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 17:47:50.826] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 17:48:08.546] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 17:48:25.804] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 17:48:25.804] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 17:48:25.804] [info] [trainer.cpp:45] ################ Finished training epoch 48 ################
+[2024-03-17 17:48:25.804] [info] [trainer.cpp:62] Epoch Runtime: 178353ms
+[2024-03-17 17:48:25.804] [info] [trainer.cpp:63] Nodes per Second: 6768.482
+[2024-03-17 17:48:28.902] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 17:54:16.058] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.584441%
+=================================
+[2024-03-17 17:54:21.213] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 18:00:12.325] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 62.797078%
+=================================
+[2024-03-17 18:00:17.441] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 18:00:17.442] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 18:01:44.406] [info] [trainer.cpp:41] ################ Starting training epoch 49 ################
+[2024-03-17 18:02:02.626] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 18:02:20.598] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 18:02:37.792] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 18:02:55.350] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 18:03:12.970] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 18:03:31.067] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 18:03:48.721] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 18:04:06.297] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 18:04:24.747] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 18:04:41.162] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 18:04:41.163] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 18:04:41.163] [info] [trainer.cpp:45] ################ Finished training epoch 49 ################
+[2024-03-17 18:04:41.163] [info] [trainer.cpp:62] Epoch Runtime: 176756ms
+[2024-03-17 18:04:41.163] [info] [trainer.cpp:63] Nodes per Second: 6829.6353
+[2024-03-17 18:04:43.859] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 18:10:30.681] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 67.223087%
+=================================
+[2024-03-17 18:10:35.859] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 18:16:35.354] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.392865%
+=================================
+[2024-03-17 18:16:40.494] [info] [ordering.cpp:53] Generating Sequential Ordering
+[2024-03-17 18:16:40.495] [info] [ordering.cpp:424] Num Train Partitions: 90
+[2024-03-17 18:18:08.439] [info] [trainer.cpp:41] ################ Starting training epoch 50 ################
+[2024-03-17 18:18:27.083] [info] [reporting.cpp:167] Nodes processed: [120832/1207179], 10.009452%
+[2024-03-17 18:18:45.332] [info] [reporting.cpp:167] Nodes processed: [241664/1207179], 20.018904%
+[2024-03-17 18:19:02.840] [info] [reporting.cpp:167] Nodes processed: [362496/1207179], 30.028355%
+[2024-03-17 18:19:20.830] [info] [reporting.cpp:167] Nodes processed: [483328/1207179], 40.037807%
+[2024-03-17 18:19:38.837] [info] [reporting.cpp:167] Nodes processed: [604160/1207179], 50.047259%
+[2024-03-17 18:19:56.493] [info] [reporting.cpp:167] Nodes processed: [724992/1207179], 60.056711%
+[2024-03-17 18:20:14.172] [info] [reporting.cpp:167] Nodes processed: [845824/1207179], 70.066163%
+[2024-03-17 18:20:32.378] [info] [reporting.cpp:167] Nodes processed: [966656/1207179], 80.075614%
+[2024-03-17 18:20:49.782] [info] [reporting.cpp:167] Nodes processed: [1087488/1207179], 90.085066%
+[2024-03-17 18:21:06.495] [info] [reporting.cpp:167] Nodes processed: [1207179/1207179], 100.000000%
+[2024-03-17 18:21:06.496] [info] [pipeline.cpp:620] Pipeline flush complete
+[2024-03-17 18:21:06.496] [info] [trainer.cpp:45] ################ Finished training epoch 50 ################
+[2024-03-17 18:21:06.496] [info] [trainer.cpp:62] Epoch Runtime: 178056ms
+[2024-03-17 18:21:06.496] [info] [trainer.cpp:63] Nodes per Second: 6779.7715
+[2024-03-17 18:21:09.217] [info] [evaluator.cpp:54] Evaluating validation set
+[2024-03-17 18:26:58.004] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 125265 nodes evaluated
+Accuracy: 66.753682%
+=================================
+[2024-03-17 18:27:03.236] [info] [evaluator.cpp:57] Evaluating test set
+[2024-03-17 18:32:59.856] [info] [reporting.cpp:134] 
+=================================
+Node Classification: 214338 nodes evaluated
+Accuracy: 63.229105%
+=================================

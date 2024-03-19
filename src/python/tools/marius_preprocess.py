@@ -5,7 +5,7 @@ import shutil
 from pathlib import Path
 
 from marius.tools.preprocess import custom
-from marius.tools.preprocess.datasets import *
+from preprocess.datasets import *
 from marius.tools.configuration.constants import PathConstants
 
 
@@ -13,10 +13,10 @@ def set_args():
     parser = argparse.ArgumentParser(
                 description='Preprocess Datasets', prog='preprocess')
 
-    parser.add_argument('output_directory',
+    parser.add_argument('--output_directory',
                         metavar='output_directory',
                         type=str,
-                        default="",
+                        default="/nvme2n1/marius/datasets",
                         help='Directory to put graph data')
 
     parser.add_argument('--edges',
@@ -100,7 +100,14 @@ def main():
     parser = set_args()
     args = parser.parse_args()
 
-    if args.output_directory is "":
+    args.dataset="IGB"
+    args.sequential_train_nodes=True
+    args.num_partitions=100
+    args.overwrite=True
+    # args.output_directory=f"/scratch/yw8143/mariusdataset/IGB_{args.dataset_type}_{args.dataset_size}_{args.num_partitions}"
+    args.output_directory=f"/nvme2n1/marius/datasets/IGB_full_{args.num_partitions}"
+    
+    if args.output_directory == "":
         args.output_directory = args.dataset
 
     if args.overwrite and Path(args.output_directory).exists():
@@ -120,13 +127,15 @@ def main():
         "OGBN_MAG": ogbn_mag.OGBNMag,
         "OGBN_PAPERS100M": ogbn_papers100m.OGBNPapers100M,
         "OGB_WIKIKG90MV2": ogb_wikikg90mv2.OGBWikiKG90Mv2,
-        "OGB_MAG240M": ogb_mag240m.OGBMag240M
+        "OGB_MAG240M": ogb_mag240m.OGBMag240M,
+        'IGB': igb.IGB,
     }
-
+    print(args.dataset)
     dataset = dataset_dict.get(args.dataset.upper())
     if dataset is not None:
         dataset = dataset(args.output_directory)
-        dataset.download(args.overwrite)
+        if args.dataset != "IGB":
+            dataset.download(args.overwrite)
         dataset.preprocess(num_partitions=args.num_partitions,
                            remap_ids=not args.no_remap_ids,
                            splits=args.dataset_split,

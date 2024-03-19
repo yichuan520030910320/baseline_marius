@@ -11,4 +11,5 @@ __all__ = ["fb15k",
            "twitter",
            "fb15k_237",
            "ogb_wikikg90mv2",
-           "ogb_mag240m"]
+           "ogb_mag240m",
+           "igb"]

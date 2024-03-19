@@ -1,0 +1,9 @@
+[2024-03-19 14:35:10.665] [info] [marius.cpp:29] Start initialization
+[2024-03-19 14:35:11.766] [error] [buffer.cpp:94] Unable to open datasets/ogbn_arxiv/nodes/features.bin
+Error: 2
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/envs/marius/bin/marius_train", line 8, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/miniconda3/envs/marius/lib/python3.9/site-packages/marius/console_scripts/marius_train.py", line 7, in main
+    m.marius_train(len(sys.argv), sys.argv)
+RuntimeError
