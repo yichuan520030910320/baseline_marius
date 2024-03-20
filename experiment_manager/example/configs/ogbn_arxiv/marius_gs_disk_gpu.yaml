@@ -69,7 +69,7 @@ model:
 storage:
   device_type: cuda
   dataset:
-    base_directory: datasets/ogbn_arxiv/
+    base_directory: datasets/IGB32/
     num_edges: 1166243
     num_nodes: 169343
     num_relations: 1

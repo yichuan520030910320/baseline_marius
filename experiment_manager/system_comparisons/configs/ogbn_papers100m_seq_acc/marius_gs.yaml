@@ -9,12 +9,12 @@ model:
           use_hashmap_sets: true
           type: UNIFORM
           options:
-            max_neighbors: 10
+            max_neighbors: 25
         eval_neighbor_sampling:
           use_hashmap_sets: true
           type: UNIFORM
           options:
-            max_neighbors: 10
+            max_neighbors: 25
         init:
           type: GLOROT_NORMAL
         type: GRAPH_SAGE
@@ -29,11 +29,11 @@ model:
       - train_neighbor_sampling:
           type: UNIFORM
           options:
-            max_neighbors: 10
+            max_neighbors: 15
         eval_neighbor_sampling:
           type: UNIFORM
           options:
-            max_neighbors: 10
+            max_neighbors: 15
         init:
           type: GLOROT_NORMAL
         type: GRAPH_SAGE

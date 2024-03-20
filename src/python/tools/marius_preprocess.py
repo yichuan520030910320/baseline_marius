@@ -102,10 +102,10 @@ def main():
 
     args.dataset="IGB"
     args.sequential_train_nodes=True
-    args.num_partitions=100
+    args.num_partitions=32
     args.overwrite=True
     # args.output_directory=f"/scratch/yw8143/mariusdataset/IGB_{args.dataset_type}_{args.dataset_size}_{args.num_partitions}"
-    args.output_directory=f"/nvme2n1/marius/datasets/IGB_full_{args.num_partitions}"
+    args.output_directory=f"/nvme2n1/marius/datasets/IGB{args.num_partitions}"
     
     if args.output_directory == "":
         args.output_directory = args.dataset
