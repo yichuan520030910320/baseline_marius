@@ -33,6 +33,8 @@ def extract_accuracies_from_file(file_name):
     max_val_acc=max(val_accs)
     ## corresponding test acc
     max_test_acc=test_accs[val_accs.index(max_val_acc)]
+    max_indices=val_accs.index(max_val_acc)
+    print('max_indices:',max_indices)
     print(f"Max val acc: {max_val_acc}, corresponding test acc: {max_test_acc}")
     return accuracies
 import argparse

@@ -105,7 +105,7 @@ def main():
     args.num_partitions=8192
     args.overwrite=True
     # args.output_directory=f"/scratch/yw8143/mariusdataset/IGB_{args.dataset_type}_{args.dataset_size}_{args.num_partitions}"
-    args.output_directory=f"/nvme2n1/marius/datasets/init_mag_new{args.num_partitions}"
+    args.output_directory=f"/nvme2n1/marius/datasets/igb_newidx{args.num_partitions}"
     
     if args.output_directory == "":
         args.output_directory = args.dataset
